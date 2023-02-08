@@ -1,9 +1,15 @@
-def main():
-    ##################################################
-    # Comlete your code here
-    ##################################################
-    pass
+   
+numM = int(input()) # input () returns string value. Need to change it to INT value. 
+#Num = int(numM)
+numF = input()
+
+Total = numM + numF
+percM = numM / (numM + numF) * 100
+percF = numF / (numM + numF) * 100 
 
 
-if __name__ == '__main__':
-    main()
+# output 
+Print (‘Total”  ‘ , numM + numF )
+Print ( ‘Number of males and females’ , numM, numF )
+#Print ( ‘ percentage of males and females ‘ , percM , percF )
+Print (f ‘ percentage of amles and females: {percM: . 2f} {percF: . 2f }. )
